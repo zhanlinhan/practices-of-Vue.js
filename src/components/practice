@@ -1,0 +1,22 @@
+<template>
+  <div class="container">
+    <h1>我是组件</h1>
+    <p>作者：{{ author }}</p>
+  </div>
+</template>
+
+<script>
+  export default {
+    data () {
+      return {
+        author: "詹林翰"
+      }
+    }
+  }
+</script>
+
+<style>
+  h1 {
+    color: red;
+  }
+</style>
